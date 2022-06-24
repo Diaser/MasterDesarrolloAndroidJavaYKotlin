@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">MasterDesarrolloAndroidJavaYKotlin</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="title_activity_bottom_nav_notas">MainActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="text_field">Text Field</string>
+    <string name="text_material_design">Material Design</string>
+
+    <string-array name="planets">
+        <item>Mercurio</item>
+        <item>Venus</item>
+        <item>Tierra</item>
+        <item>Marte</item>
+        <item>Jupiter</item>
+        <item>Saturno</item>
+        <item>Urano</item>
+        <item>Neptuno</item>
+        <item>Plutón</item>
+    </string-array>
+</resources>
