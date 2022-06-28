@@ -8,6 +8,7 @@ import android.widget.ImageView
 import android.widget.TextView
 import com.mx.monzon.masterdesarrolloandroidjavaykotlin.R
 import com.mx.monzon.masterdesarrolloandroidjavaykotlin.to.Notas
+import timber.log.Timber
 
 
 class MyAdapterNotas(
@@ -29,6 +30,7 @@ class MyAdapterNotas(
             holder.imgFavorite.setImageResource(R.drawable.start_fill)
         if(holder.mNota.color!=0)
             holder.itemView.setBackgroundResource(holder.mNota.color)
+        Timber.i("EDMM contenido de texto: %s", holder.mNota.contenido)
     }
 
     override fun getItemCount(): Int = values.size
